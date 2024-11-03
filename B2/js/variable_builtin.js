@@ -22,7 +22,7 @@
 
 // *** const
 // const object = { name: "abc", age: 15 };
-// // object += {} // error (is constant var)
+// // object -= {} // error (is constant var)
 // object.name = "xyz";
 // console.table(object);
 
@@ -31,10 +31,10 @@
 // way 1
 // setTimeout(() => {
 //   // arrow function
-//   document.write("<h1>Hello</h1>");
+//   document.write("<h1>Hello 123</h1>");
 // }, 1000);
 
-// way 2
+// // way 2
 // function say_hello() {
 //   console.warn("Hello friend!");
 // }
@@ -53,7 +53,7 @@
 //   .innerText += "\nbye";
 // }, 1000);
 
-// // sau 5 lan chay -> dung lai
+// // // sau 5 lan chay -> dung lai
 // setTimeout(() => {
 //   clearInterval(id);
 //   //   callback function
